@@ -27,7 +27,7 @@ long long factorial(int n)
 	return sum;
 }
 
-// reduces numIn by n for every number 2- n if numIn is divisible every element in by 2 - n
+// reduces numIn by n for every number 2 - n if numIn is divisible every element in by 2 - n
 long long smallestDivisible(long long numIn, int n)
 {
 	long long sum = numIn;
