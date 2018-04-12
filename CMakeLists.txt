@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
+set(CMAKE_CXX_STANDARD 14)
+project("Project-Euler")
+
+add_subdirectory(util)
+
+add_subdirectory(problem-0001)
+add_subdirectory(problem-0002)
+add_subdirectory(problem-0003)
+add_subdirectory(problem-0004)
+add_subdirectory(problem-0005)
+add_subdirectory(problem-0006)
+add_subdirectory(problem-0007)
+add_subdirectory(problem-0008)
+add_subdirectory(problem-0009)
